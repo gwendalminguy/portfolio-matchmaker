@@ -23,19 +23,21 @@ function HomePage() {
     document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const BASE_URL = "/portfolio-matchmaker";
+
   const imagesGeneral = [
-    `/images/slide_${theme}_ranking.png`,
-    `/images/slide_${theme}_matches.png`,
-    `/images/slide_${theme}_tree.png`,
+    `${BASE_URL}/images/slide_${theme}_ranking.png`,
+    `${BASE_URL}/images/slide_${theme}_matches.png`,
+    `${BASE_URL}/images/slide_${theme}_tree.png`,
   ];
 
   const imagesTournament = [
-    `/images/slide_${theme}_tournament_list.png`,
-    `/images/slide_${theme}_tournament_general.png`,
-    `/images/slide_${theme}_tournament_participants.png`,
+    `${BASE_URL}/images/slide_${theme}_tournament_list.png`,
+    `${BASE_URL}/images/slide_${theme}_tournament_general.png`,
+    `${BASE_URL}/images/slide_${theme}_tournament_participants.png`,
   ];
 
-  const imageMobile = `/images/mobile_${theme}.png`;
+  const imageMobile = `${BASE_URL}/images/mobile_${theme}.png`;
 
   const updateScores = () => {
     const teams = [...scoreboard.teams];
@@ -108,12 +110,12 @@ function HomePage() {
   };
 
   useEffect(() => {
-    fetch('/data/matches.json')
+    fetch(`${BASE_URL}/data/matches.json`)
       .then(response => response.json())
       .then(setMatches)
       .catch(console.error);
 
-    fetch('/data/scoreboard.json')
+    fetch(`${BASE_URL}/data/scoreboard.json`)
       .then(response => response.json())
       .then(setScoreboard)
       .catch(console.error);
@@ -261,14 +263,14 @@ function HomePage() {
               name: "Baptiste Lonqueu",
               github: "https://github.com/lnqbat",
               linkedin: "https://linkedin.com/in/baptiste-lonqueu-9a9b79202",
-              image: "/images/team_baptiste.jpg",
+              image: `${BASE_URL}/images/team_baptiste.jpg`,
               role: "Backend & Deployment",
             },
             {
               name: "Gwendal Minguy-Pèlerin",
               github: "https://github.com/gwendalminguy",
               linkedin: "https://linkedin.com/in/gwendalminguy",
-              image: "/images/team_gwendal.jpg",
+              image: `${BASE_URL}/images/team_gwendal.jpg`,
               role: "Frontend & UX Design",
             },
           ].map((member, index) => (
