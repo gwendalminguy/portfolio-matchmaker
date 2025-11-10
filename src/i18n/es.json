@@ -83,6 +83,7 @@
   "registration_description": "Puedes crear una cuenta como organizador aquí.",
   "unavailable_tournament_description": "El código de compartición que ingresaste no coincide con ningún torneo. Por favor, verifica que lo hayas escrito correctamente.",
   "invalid_password_link_description": "El enlace para restablecer la contraseña no es válido o ha expirado.",
+  "not_found_description": "...",
 
   "success_account_creation": "Cuenta creada, ahora puedes iniciar sesión.",
   "success_account_deletion": "Tu cuenta ha sido eliminada.",
@@ -120,6 +121,7 @@
   "error_tournament_update": "...",
   "error_tournament_deletion": "Error al eliminar el torneo.",
   "error_tournaments": "Error al cargar los torneos.",
+  "error_not_found": "...",
 
   "warning_account_deletion": "Estás a punto de eliminar tu cuenta. El historial de tus torneos y todos tus datos se perderán permanentemente.",
   "warning_tournament_deletion": "Estás a punto de eliminar este torneo. Todos los datos que contiene se perderán permanentemente.",

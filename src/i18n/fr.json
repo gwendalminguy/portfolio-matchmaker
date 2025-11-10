@@ -83,6 +83,7 @@
   "registration_description": "Vous pouvez ici vous créer un compte en tant qu'organisateur.",
   "unavailable_tournament_description": "Le code de partage que vous avez saisi ne correspond à aucun tournoi. Veuillez vérifier que vous l’avez bien entré.",
   "invalid_password_link_description": "Le lien de réinitialisation de mot de passe est invalide ou expiré.",
+  "not_found_description": "La page à laquelle vous avez essayé d'accéder n'existe pas.",
 
   "success_account_creation": "Compte créé, vous pouvez maintenant vous connecter.",
   "success_account_deletion": "Votre compte a été supprimé.",
@@ -119,6 +120,7 @@
   "error_tournament_update": "Échec de la mise à jour du tournoi.",
   "error_tournament_deletion": "Échec de la suppression du tournoi.",
   "error_tournaments": "Erreur lors du chargement des tournois.",
+  "error_not_found": "Page Inexistante.",
 
   "warning_account_deletion": "Vous êtes sur le point de supprimer votre compte. L’historique de vos tournois et toutes vos données seront définitivement perdus.",
   "warning_tournament_deletion": "Vous êtes sur le point de supprimer ce tournoi. Toutes les données qu'il contient seront définitivement perdues.",

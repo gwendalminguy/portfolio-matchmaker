@@ -83,6 +83,7 @@
   "registration_description": "Here you can create your account as an organizer by filling the form below.",
   "unavailable_tournament_description": "The share code you entered doesn’t match any tournament. Please check that you’ve typed it correctly.",
   "invalid_password_link_description": "The password reset link is invalid or expired.",
+  "not_found_description": "The page you tried to access could not be found.",
 
   "success_account_creation": "Account created, you can now log in.",
   "success_account_deletion": "Your account has been deleted.",
@@ -120,6 +121,7 @@
   "error_tournament_update": "Tournament update failure.",
   "error_tournament_deletion": "Tournament deletion failure.",
   "error_tournaments": "Error loading tournaments.",
+  "error_not_found": "Page Not Found.",
 
   "warning_account_deletion": "You are about to delete your account. Your tournament history and all your data will be permanently lost.",
   "warning_tournament_deletion": "You are about to delete this tournament. All the data it contains will be permanently lost.",
