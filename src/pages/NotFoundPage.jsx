@@ -16,7 +16,7 @@ function NotFoundPage() {
             <stop offset="100%" stop-color="#60A5FA" />
           </linearGradient>
           <filter id="thinGlow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="2.5" result="blur" />
+            <feGaussianBlur stdDeviation="1.5" result="blur" />
             <feMerge>
               <feMergeNode in="blur" />
               <feMergeNode in="SourceGraphic" />
@@ -30,7 +30,7 @@ function NotFoundPage() {
               font-size="75"
               font-weight="500"
               stroke="url(#neonBlueGradient)"
-              stroke-width="2.5"
+              stroke-width="1.5"
               fill="none"
               filter="url(#thinGlow)"
               stroke-linecap="round"
@@ -38,6 +38,12 @@ function NotFoundPage() {
               font-family="'Outfit', 'Inter', system-ui, sans-serif"
               letter-spacing="4">
           404
+
+      <animate attributeName="opacity"
+              values="1;0;1;0.25;1;1;1;0.75;1;0.25;1;1;1"
+              keyTimes="0;0.05;0.07;0.09;0.12;0.3;0.6;0.65;0.68;0.7;0.73;0.9;1"
+              dur="4s"
+              repeatCount="indefinite" />
         </text>
       </svg>
 
@@ -48,7 +54,7 @@ function NotFoundPage() {
       <p className="text-lg text-center mb-6 text-gray-500">
         {t('not_found_description')}
       </p>
-      <button className="btn border border-neutral rounded-md" onClick={() => navigate("/")}>
+      <button className="btn border border-base-300 rounded-md" onClick={() => navigate("/")}>
         {t('home')}
       </button>
     </div>
