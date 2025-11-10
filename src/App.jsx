@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import HomePage from "./pages/HomePage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 import './App.css';
 
@@ -12,10 +13,12 @@ function App() {
   return (
     <ThemeProvider>
       <HashRouter>
-        <div className="flex flex-col min-h-screen">
+        <div className="h-screen flex flex-col justify-between">
           <Navbar />
-          <main className="flex-grow mt-10">
+          <main className="flex-grow pt-10">
             <Routes>
+              <Route path="*" element={<NotFoundPage />} />
+
               <Route path="/" element={<HomePage />} />
             </Routes>
           </main>
