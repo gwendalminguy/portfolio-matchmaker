@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 function LanguageSwitch() {
@@ -22,14 +23,14 @@ function LanguageSwitch() {
 
   return (
     <div title={t('change_language')} className="dropdown dropdown-end">
-      <div tabIndex={0} role="button" className="btn border border-base-300 rounded-md flex items-center gap-2">
-        <span className="text-xl">{currentLang.flag}</span>
+      <div tabIndex={0} role="button" className="btn border border-base-300 rounded-md flex items-center gap-2 p-2 sm:p-4">
+        <span className="hidden sm:inline text-xl">{currentLang.flag}</span>
         <span className="hidden sm:inline font-medium">
           {currentLang.code.toUpperCase()}
         </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-4 h-4 opacity-70"
+          className="hidden sm:inline w-4 h-4 opacity-70"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -39,9 +40,10 @@ function LanguageSwitch() {
         >
           <path d="M19 9l-7 7-7-7" />
         </svg>
+        <Globe className="inline sm:hidden" />
       </div>
 
-      <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-25 p-2 shadow border border-base-300">
+      <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box mt-3 z-1 w-25 p-2 shadow">
         {languages.map((lang) => (
           <li key={lang.code}>
             <button onClick={() => changeLanguage(lang.code)} className={`flex items-center gap-3 px-2 py-1 ${language === lang.code ? "active font-semibold text-primary" : ""}`}>
