@@ -13,9 +13,9 @@ function App() {
   return (
     <ThemeProvider>
       <HashRouter>
-        <div className="h-screen flex flex-col justify-between">
+        <div className="min-h-screen flex flex-col justify-between">
           <Navbar />
-          <main className="flex-grow pt-10">
+          <main className="flex flex-1 flex-col pt-10">
             <Routes>
               <Route path="*" element={<NotFoundPage />} />
 
