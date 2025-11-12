@@ -23,13 +23,13 @@ function Navbar() {
 
         <div className="flex gap-4">
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-4 lg:space-x-8 items-center">
+          <div className="hidden md:flex space-x-2 lg:space-x-8 items-center">
             <Link to="/" className={`relative px-2 py-1 font-medium transition-colors duration-200 hover:text-primary after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 ${location.pathname === "/" ? "text-primary after:scale-x-100" : "text-base-content"}`}>
               {t('home')}
             </Link>
 
             {/* Login Button */}
-            <a href="https://matchmaker.ovh/tournaments" className="bg-primary text-white font-medium px-4 py-2 cursor-pointer rounded-md hover:bg-primary/90">
+            <a href="https://matchmaker.ovh/tournaments" className="bg-primary text-white font-medium px-4 py-2 cursor-pointer rounded-md hover:bg-primary/90 whitespace-nowrap">
               {t('login')}
             </a>
           </div>

@@ -42,7 +42,7 @@ function FeatureDisplay({ title, description, icon, component, image, button, di
       {/* Component / Image */}
       <div className="flex justify-center items-center">
         {component && (
-          <div className="w-full max-w-md md:max-w-3xl scale-90">
+          <div className="flex w-full max-w-md md:max-w-3xl items-center justify-center">
             {component}
           </div>
         )}
