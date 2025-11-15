@@ -14,10 +14,10 @@ Welcome to the MatchMaker project!
 
 MatchMaker is a web application designed to make tournament organization effortless. It provides a simple and intuitive interface for creating and managing competitions, automatically generating matches, and updating scores in real time. Built to help associations and event organizers move beyond pen-and-paper methods, MatchMaker offers an accessible and dynamic experience for both organizers and spectators, through a responsive interface.
 
-## 🌐 Live Landing Page
+## 🌐 Landing Page & Web Application
 
 Discover the **public landing page** of MatchMaker — introducing the concept, features, and visuals of the application:  
-[MatchMaker Portfolio Landing Page](https://gwendalminguy.github.io/portfolio-matchmaker/)
+[MatchMaker Landing Page](https://gwendalminguy.github.io/portfolio-matchmaker/)
 
 Or simply access and use MatchMaker:  
 [matchmaker.ovh](https://matchmaker.ovh/)
@@ -38,7 +38,7 @@ MatchMaker supports the following features:
 	* Score Edition
 	* Matches Generation
 
-### Tournament Spectators
+### Tournament Spectators & Participants
 
 * Easy Scoreboard Access (QR Code)
 * Tournament Ranking Table
@@ -47,16 +47,27 @@ MatchMaker supports the following features:
 
 ### Interface
 
+* Intuitive & Responsive UI
 * Dark & Light Modes
-* English, French & Spanish Support
+* Full Multilingual Support:
+  * English
+  * French
+  * Spanish
 
 ### Upcoming Features
 
-* Participants Accounts
-* Tournament Hub
-* PDF Exportation
-* Stripe Integration (Donations)
-* Support New Sport Types
+* New Sport & Games Support
+* Participants Accounts: 
+  * Allowing participants to create an account
+  * Keeping a history of the tournaments attended
+* Tournament Hub:
+  * Seeing public nearby tournaments
+  * Requesting to join one
+* Ranking Exportation:
+  * Saving final results as PDF/CSV
+  * Sharing the exported ranking
+* Stripe Integration:
+  * Allowing donations for financial support
 
 ## 🔧 Technologies
 
