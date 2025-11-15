@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="LOGO-PURPLE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 300">
+<svg id="LOGO-PURPLE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 300">
   <defs>
     <style>
       .cls-1 {
@@ -30,73 +30,73 @@
         fill: url(#Dégradé_sans_nom_328-6);
       }
     </style>
-    <linearGradient id="Dégradé_sans_nom_328" data-name="Dégradé sans nom 328" x1="130.626" y1="156.336" x2="103.295" y2="146.388" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Dégradé_sans_nom_328" data-name="Dégradé sans nom 328" x1="204.852" y1="162.085" x2="145.93" y2="140.639" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#d4d2e4"/>
       <stop offset="1" stop-color="#9894bd"/>
     </linearGradient>
-    <linearGradient id="Dégradé_sans_nom_328-2" data-name="Dégradé sans nom 328" x1="212.35" y1="165.446" x2="159.988" y2="146.388" xlink:href="#Dégradé_sans_nom_328"/>
-    <linearGradient id="Dégradé_sans_nom_328-3" data-name="Dégradé sans nom 328" x1="575.666" y1="156.336" x2="548.334" y2="146.388" xlink:href="#Dégradé_sans_nom_328"/>
-    <linearGradient id="Dégradé_sans_nom_328-4" data-name="Dégradé sans nom 328" x1="657.389" y1="165.446" x2="605.027" y2="146.388" xlink:href="#Dégradé_sans_nom_328"/>
-    <linearGradient id="Dégradé_sans_nom_328-5" data-name="Dégradé sans nom 328" x1="303.058" y1="165.446" x2="250.697" y2="146.388" xlink:href="#Dégradé_sans_nom_328"/>
-    <linearGradient id="Dégradé_sans_nom_328-6" data-name="Dégradé sans nom 328" x1="748.098" y1="165.446" x2="695.736" y2="146.388" xlink:href="#Dégradé_sans_nom_328"/>
+    <linearGradient id="Dégradé_sans_nom_328-2" data-name="Dégradé sans nom 328" x1="381.036" y1="181.726" x2="268.152" y2="140.639" xlink:href="#Dégradé_sans_nom_328"/>
+    <linearGradient id="Dégradé_sans_nom_328-3" data-name="Dégradé sans nom 328" x1="1164.296" y1="162.085" x2="1105.374" y2="140.639" xlink:href="#Dégradé_sans_nom_328"/>
+    <linearGradient id="Dégradé_sans_nom_328-4" data-name="Dégradé sans nom 328" x1="1340.481" y1="181.726" x2="1227.596" y2="140.639" xlink:href="#Dégradé_sans_nom_328"/>
+    <linearGradient id="Dégradé_sans_nom_328-5" data-name="Dégradé sans nom 328" x1="576.592" y1="181.726" x2="463.707" y2="140.639" xlink:href="#Dégradé_sans_nom_328"/>
+    <linearGradient id="Dégradé_sans_nom_328-6" data-name="Dégradé sans nom 328" x1="1536.036" y1="181.726" x2="1423.151" y2="140.639" xlink:href="#Dégradé_sans_nom_328"/>
   </defs>
   <g>
-    <polygon class="cls-2" points="116.961 108.843 131.134 151.362 116.961 193.882 102.787 151.362 116.961 108.843"/>
-    <polygon class="cls-2" points="173.654 108.843 202 193.882 173.654 193.882 159.48 151.362 173.654 108.843"/>
-    <polygon class="cls-2" points="60.268 193.882 88.614 108.843 116.961 108.843 88.614 193.882 60.268 193.882"/>
-    <polygon class="cls-2" points="116.961 193.882 145.307 108.843 173.654 108.843 145.307 193.882 116.961 193.882"/>
-    <polygon class="cls-1" points="116.961 108.843 131.134 151.362 116.961 193.882 102.787 151.362 116.961 108.843"/>
-    <polygon class="cls-4" points="173.654 108.843 202 193.882 173.654 193.882 159.48 151.362 173.654 108.843"/>
+    <polygon class="cls-2" points="175.391 59.696 205.946 151.362 175.391 243.029 144.835 151.362 175.391 59.696"/>
+    <polygon class="cls-2" points="297.613 59.696 358.724 243.029 297.613 243.029 267.057 151.362 297.613 59.696"/>
+    <polygon class="cls-2" points="53.168 243.029 114.28 59.696 175.391 59.696 114.28 243.029 53.168 243.029"/>
+    <polygon class="cls-2" points="175.391 243.029 236.502 59.696 297.613 59.696 236.502 243.029 175.391 243.029"/>
+    <polygon class="cls-1" points="175.391 59.696 205.946 151.362 175.391 243.029 144.835 151.362 175.391 59.696"/>
+    <polygon class="cls-4" points="297.613 59.696 358.724 243.029 297.613 243.029 267.057 151.362 297.613 59.696"/>
   </g>
   <g>
-    <polygon class="cls-2" points="562 108.843 576.173 151.362 562 193.882 547.827 151.362 562 108.843"/>
-    <polygon class="cls-2" points="618.693 108.843 647.039 193.882 618.693 193.882 604.52 151.362 618.693 108.843"/>
-    <polygon class="cls-2" points="505.307 193.882 533.654 108.843 562 108.843 533.654 193.882 505.307 193.882"/>
-    <polygon class="cls-2" points="562 193.882 590.346 108.843 618.693 108.843 590.346 193.882 562 193.882"/>
-    <polygon class="cls-3" points="562 108.843 576.173 151.362 562 193.882 547.827 151.362 562 108.843"/>
-    <polygon class="cls-6" points="618.693 108.843 647.039 193.882 618.693 193.882 604.52 151.362 618.693 108.843"/>
+    <polygon class="cls-2" points="1134.835 59.696 1165.39 151.362 1134.835 243.029 1104.279 151.362 1134.835 59.696"/>
+    <polygon class="cls-2" points="1257.057 59.696 1318.168 243.029 1257.057 243.029 1226.501 151.362 1257.057 59.696"/>
+    <polygon class="cls-2" points="1012.613 243.029 1073.724 59.696 1134.835 59.696 1073.724 243.029 1012.613 243.029"/>
+    <polygon class="cls-2" points="1134.835 243.029 1195.946 59.696 1257.057 59.696 1195.946 243.029 1134.835 243.029"/>
+    <polygon class="cls-3" points="1134.835 59.696 1165.39 151.362 1134.835 243.029 1104.279 151.362 1134.835 59.696"/>
+    <polygon class="cls-6" points="1257.057 59.696 1318.168 243.029 1257.057 243.029 1226.501 151.362 1257.057 59.696"/>
   </g>
   <g>
-    <polygon class="cls-2" points="264.362 108.843 292.709 193.882 264.362 193.882 250.189 151.362 264.362 108.843"/>
-    <polygon class="cls-2" points="207.669 193.882 236.016 108.843 264.362 108.843 236.016 193.882 207.669 193.882"/>
-    <polygon class="cls-2" points="241.685 176.874 250.189 176.874 255.858 193.882 236.016 193.882 241.685 176.874"/>
-    <polygon class="cls-5" points="264.362 108.843 292.709 193.882 264.362 193.882 250.189 151.362 264.362 108.843"/>
+    <polygon class="cls-2" points="493.168 59.696 554.279 243.029 493.168 243.029 462.613 151.362 493.168 59.696"/>
+    <polygon class="cls-2" points="370.946 243.029 432.057 59.696 493.168 59.696 432.057 243.029 370.946 243.029"/>
+    <polygon class="cls-2" points="444.279 206.362 462.613 206.362 474.835 243.029 432.057 243.029 444.279 206.362"/>
+    <polygon class="cls-5" points="493.168 59.696 554.279 243.029 493.168 243.029 462.613 151.362 493.168 59.696"/>
   </g>
   <g>
-    <polygon class="cls-2" points="709.402 108.843 737.748 193.882 709.402 193.882 695.228 151.362 709.402 108.843"/>
-    <polygon class="cls-2" points="652.709 193.882 681.055 108.843 709.402 108.843 681.055 193.882 652.709 193.882"/>
-    <polygon class="cls-2" points="686.724 176.874 695.228 176.874 700.898 193.882 681.055 193.882 686.724 176.874"/>
-    <polygon class="cls-7" points="709.402 108.843 737.748 193.882 709.402 193.882 695.228 151.362 709.402 108.843"/>
+    <polygon class="cls-2" points="1452.613 59.696 1513.724 243.029 1452.613 243.029 1422.057 151.362 1452.613 59.696"/>
+    <polygon class="cls-2" points="1330.39 243.029 1391.501 59.696 1452.613 59.696 1391.501 243.029 1330.39 243.029"/>
+    <polygon class="cls-2" points="1403.724 206.362 1422.057 206.362 1434.279 243.029 1391.501 243.029 1403.724 206.362"/>
+    <polygon class="cls-7" points="1452.613 59.696 1513.724 243.029 1452.613 243.029 1422.057 151.362 1452.613 59.696"/>
   </g>
   <g>
-    <polygon class="cls-2" points="794.441 151.362 808.614 193.882 785.937 193.882 771.764 151.362 794.441 151.362"/>
-    <polygon class="cls-2" points="794.441 151.362 808.614 108.843 785.937 108.843 771.764 151.362 794.441 151.362"/>
-    <rect class="cls-2" x="751.921" y="108.843" width="22.677" height="85.039"/>
+    <polygon class="cls-2" points="1635.946 151.362 1666.501 243.029 1617.612 243.029 1587.057 151.362 1635.946 151.362"/>
+    <polygon class="cls-2" points="1635.946 151.362 1666.501 59.696 1617.612 59.696 1587.057 151.362 1635.946 151.362"/>
+    <rect class="cls-2" x="1544.279" y="59.696" width="48.889" height="183.333"/>
   </g>
   <g>
-    <polygon class="cls-2" points="927.307 159.866 938.646 193.882 915.968 193.882 904.63 159.866 927.307 159.866"/>
-    <polygon class="cls-2" points="927.307 159.866 936.756 131.52 914.079 131.52 904.63 159.866 927.307 159.866"/>
-    <rect class="cls-2" x="882.315" y="108.843" width="22.677" height="85.039"/>
-    <rect class="cls-2" x="882.315" y="108.843" width="54.441" height="22.677"/>
+    <polygon class="cls-2" points="1922.387 169.696 1946.832 243.029 1897.943 243.029 1873.498 169.696 1922.387 169.696"/>
+    <polygon class="cls-2" points="1922.387 169.696 1942.757 108.584 1893.869 108.584 1873.498 169.696 1922.387 169.696"/>
+    <rect class="cls-2" x="1825.39" y="59.696" width="48.889" height="183.333"/>
+    <rect class="cls-2" x="1825.39" y="59.696" width="117.367" height="48.889"/>
   </g>
   <g>
-    <rect class="cls-2" x="306.882" y="131.52" width="22.677" height="62.362"/>
-    <rect class="cls-2" x="284.205" y="108.843" width="68.031" height="22.677"/>
+    <rect class="cls-2" x="584.835" y="108.584" width="48.889" height="134.444"/>
+    <rect class="cls-2" x="535.946" y="59.696" width="146.667" height="48.889"/>
   </g>
   <g>
-    <rect class="cls-2" x="425.937" y="108.843" width="22.677" height="85.039"/>
-    <rect class="cls-2" x="468.457" y="108.843" width="22.677" height="85.039"/>
-    <rect class="cls-2" x="448.614" y="140.024" width="19.843" height="22.677"/>
+    <rect class="cls-2" x="841.502" y="59.696" width="48.889" height="183.333"/>
+    <rect class="cls-2" x="933.168" y="59.696" width="48.889" height="183.333"/>
+    <rect class="cls-2" x="890.39" y="126.918" width="42.778" height="48.889"/>
   </g>
   <g>
-    <rect class="cls-2" x="366.409" y="131.52" width="22.677" height="39.685"/>
-    <rect class="cls-2" x="366.409" y="108.843" width="45.354" height="22.677"/>
-    <rect class="cls-2" x="366.409" y="171.205" width="45.354" height="22.677"/>
+    <rect class="cls-2" x="713.168" y="108.584" width="48.889" height="85.556"/>
+    <rect class="cls-2" x="713.168" y="59.696" width="97.778" height="48.889"/>
+    <rect class="cls-2" x="713.168" y="194.14" width="97.778" height="48.889"/>
   </g>
   <g>
-    <rect class="cls-2" x="822.787" y="131.52" width="22.677" height="39.685"/>
-    <rect class="cls-2" x="822.787" y="108.843" width="45.354" height="22.677"/>
-    <rect class="cls-2" x="845.465" y="142.858" width="17.008" height="17.008"/>
-    <rect class="cls-2" x="822.787" y="171.205" width="45.354" height="22.677"/>
+    <rect class="cls-2" x="1697.057" y="108.584" width="48.889" height="85.556"/>
+    <rect class="cls-2" x="1697.057" y="59.696" width="97.778" height="48.889"/>
+    <rect class="cls-2" x="1745.946" y="133.029" width="36.667" height="36.667"/>
+    <rect class="cls-2" x="1697.057" y="194.14" width="97.778" height="48.889"/>
   </g>
 </svg>
