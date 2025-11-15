@@ -1,12 +1,6 @@
 <p align="center">
-  <img src="./public/logo_short.png" width="300" style="display:block; margin:0 auto;">
+  <img src="./public/logo_full.png" width="300" style="display:block; margin:0 auto;">
 </p>
-
-<p align="center">
-  <img src="./public/logo_long.png" width="250" style="display:block; margin:0 auto;">
-</p>
-
-<br>
 
 <h2 align="center">
 	Portfolio - MatchMaker<br>Holberton School Toulouse
