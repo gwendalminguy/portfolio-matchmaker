@@ -6,11 +6,13 @@
   <img src="./public/logo_long.png" width="250" style="display:block; margin:0 auto;">
 </p>
 
+<br>
+
 <h2 align="center">
 	Portfolio - MatchMaker<br>Holberton School Toulouse
 </h2>
 
-Welcome to the MatchMaker project!
+Welcome to the [MatchMaker](https://matchmaker.ovh/) project!
 
 MatchMaker is a web application designed to make tournament organization effortless. It provides a simple and intuitive interface for creating and managing competitions, automatically generating matches, and updating scores in real time. Built to help associations and event organizers move beyond pen-and-paper methods, MatchMaker offers an accessible and dynamic experience for both organizers and spectators, through a responsive interface.
 
@@ -22,7 +24,7 @@ Discover the **public landing page** of MatchMaker — introducing the concept, 
 Or simply access and use MatchMaker:  
 [matchmaker.ovh](https://matchmaker.ovh/)
 
-## 🛠 Features
+## 🛠 Application Features
 
 MatchMaker supports the following features:
 
@@ -58,18 +60,18 @@ MatchMaker supports the following features:
 
 * New Sport & Games Support
 * Participants Accounts: 
-  * Allowing participants to create an account
-  * Keeping a history of the tournaments attended
+  * Allowing participants to create an account.
+  * Keeping a history of the tournaments attended.
 * Tournament Hub:
-  * Seeing public nearby tournaments
-  * Requesting to join one
+  * Seeing public nearby tournaments.
+  * Requesting to join one.
 * Ranking Exportation:
-  * Saving final results as PDF/CSV
-  * Sharing the exported ranking
+  * Saving final results as PDF/CSV.
+  * Sharing the exported ranking.
 * Stripe Integration:
-  * Allowing donations for financial support
+  * Allowing donations for financial support.
 
-## 🔧 Technologies
+## 🔧 Technologies Used
 
 <br>
 <p align="center">
@@ -133,7 +135,7 @@ The project was developed through three main phases:
 |-------|--------------|
 | **Idea Development** | Brainstorming of the application concept, definition of key features, and drafting of the project charter and technical documentation. |
 | **Core Features** | Four development sprints focusing on: secure authentication (HttpOnly cookies), tournament and team CRUD management, WebSocket integration for real-time updates, and Celery-based email automation. |
-| **Public Release** | Final UX improvements, full deployment with SEO optimization, and creation of the responsive landing page to showcase the project. |
+| **Public Release V1** | Final UX improvements, full deployment with SEO optimization, and creation of the responsive landing page to showcase the project. |
 
 ## 🧑‍🤝‍🧑 Authors
 
