@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./public/logo_short.png" width="250" style="display:block; margin:0 auto;">
+  <img src="./public/logo_short.png" width="300" style="display:block; margin:0 auto;">
 </p>
 
 <p align="center">
-  <img src="./public/logo_long.png" width="250" style="display:block; margin:0; margin-top:-45px;">
+  <img src="./public/logo_long.png" width="250" style="display:block; margin:0 auto;">
 </p>
 
 <h2 align="center">
