@@ -8,9 +8,11 @@ function LanguageSwitch() {
   const [language, setLanguage] = useState(i18n.language || "en");
 
   const languages = [
-    { code: "en", label: "English", flag: "🇬🇧" },
-    { code: "fr", label: "Français", flag: "🇫🇷" },
-    { code: "es", label: "Español", flag: "🇪🇸" },
+    { code: "en", label: "English", flag: "/flags/en.svg" },
+    { code: "fr", label: "Français", flag: "/flags/fr.svg" },
+    { code: "es", label: "Español", flag: "/flags/es.svg" },
+    { code: "de", label: "Deutsch", flag: "/flags/de.svg" },
+    { code: "it", label: "Italian", flag: "/flags/it.svg" },
   ];
 
   const currentLang = languages.find((lang) => lang.code === language || lang.code === language.split("-")[0]);
@@ -24,7 +26,7 @@ function LanguageSwitch() {
   return (
     <div title={t('change_language')} className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn border border-base-300 rounded-md flex items-center gap-2 p-2 sm:p-4">
-        <span className="hidden sm:inline text-xl">{currentLang.flag}</span>
+        <img src={currentLang.flag} alt={currentLang.label} className="hidden sm:inline w-6 h-4 object-cover rounded-sm" />
         <span className="hidden sm:inline font-medium">
           {currentLang.code.toUpperCase()}
         </span>

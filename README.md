@@ -49,6 +49,8 @@ MatchMaker supports the following features:
   * English
   * French
   * Spanish
+  * Deutsch
+  * Italian
 
 ### Upcoming Features
 
