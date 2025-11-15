@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./public/logo_long.png" width="250" style="display:block; margin:0 auto;">
+  <img src="./public/logo_long.png" width="250" style="display:block; margin:0; margin-top:-45px;">
 </p>
 
 <h2 align="center">
