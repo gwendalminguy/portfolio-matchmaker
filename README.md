@@ -30,7 +30,7 @@ MatchMaker supports the following features:
 * Tournament Management:
 	* Creation
 	* Teams & Participants Handling
-	* Different Modes
+	* Different Modes (Random - Bracket - Swiss)
 	* Score Edition
 	* Matches Generation
 
@@ -52,18 +52,33 @@ MatchMaker supports the following features:
 
 ### Upcoming Features
 
-* New Sport & Games Support
+* Sports Support:
+  * Adapting tournaments details to the sport type
+  * Adding new sports
 * Participants Accounts: 
   * Allowing participants to create an account.
   * Keeping a history of the tournaments attended.
 * Tournament Hub:
   * Seeing public nearby tournaments.
-  * Requesting to join one.
+  * Requesting to join a tournament.
 * Ranking Exportation:
   * Saving final results as PDF/CSV.
-  * Sharing the exported ranking.
+  * Sharing the document easily.
 * Stripe Integration:
   * Allowing donations for financial support.
+
+## 📂 Project Structure
+
+The project contains several files and directories, which are the following:
+
+| File | Description |
+| :---- | :---------- |
+| [`public/`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/public/) | Directory for sample data and images. |
+| [`src/`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/src/) | Directory for the source files of the application. |
+| [`eslint.config.js`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/eslint.config.js) | The configuration file for ESLint. |
+| [`index.html`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/index.html) | The HTML file of the application. |
+| [`package.json`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/package.json) | The JSON file listing all dependencies.  |
+| [`vite.config.js`](https://github.com/gwendalminguy/portfolio-matchmaker/blob/main/vite.config.js) | The configuration file for Vite. |
 
 ## 🔧 Technologies Used
 
